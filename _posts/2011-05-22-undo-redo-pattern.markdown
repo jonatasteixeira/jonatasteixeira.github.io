@@ -1,8 +1,14 @@
 ---
+bg: "tools.jpg"
 layout: post
 title:  "Python - Undo Redo Pattern"
+crawlertitle: "Python - Undo Redo Pattern"
+summary: "An extension of Command Pattern"
 date:   2011-05-22 21:59:45 -0300
 categories: daily
+author: Jonatas Teixeira
+tags: 'daily'
+
 ---
 
 Recently, I was looking for a simple way to implement UNDO and REDO features on [Grape-Editor](hhttps://github.com/grape-editor/).
@@ -15,7 +21,7 @@ Basicaly is necessary main 3 kinds of classes. Invoker, Receiver and Command. A 
 O the web exists many diagrams that try to explain how `Command Pattern` works. 
 After read a lot of I created this one:
 
-![Command Pattern Diagram](/images/command_pattern.png){:class="img-responsive"}
+![Command Pattern Diagram](/assets/images/command_pattern.png){:class="img-responsive"}
 
 Okay, okay. I don't like UML diagram too. But now lets talk about each class of this pattern.
 To take easier to understand, lets use an example of "how to drive a car".

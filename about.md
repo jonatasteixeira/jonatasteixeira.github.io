@@ -1,18 +1,22 @@
 ---
+bg: "owl.jpg"
 layout: page
-title: About
+title: "About"
+crawlertitle: "Why and how this blog was created"
 permalink: /about/
+summary: "About me"
+active: about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Jonatas Teixeira
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+{% highlight json %}
+{
+    name: "Jonatas Teixeira",
+    url: "jonatasteixeira.github.io",
+    birth: "1990-01-19T19:00:00+00:00"
+    company: "Itaú Unibanco",
+}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+{% endhighlight %}
 
-
-[jekyll-organization]: https://github.com/jekyll
