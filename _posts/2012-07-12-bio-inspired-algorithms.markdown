@@ -60,6 +60,7 @@ Inside Nature inspired computing area we have somes algorithms categories:
 
 Not Finished
 
+
 ## Collective Intelligence
 Collective intelligence is shared or group intelligence that emerges from the collaboration, collective efforts, and competition of many individuals and appears in consensus decision making.
 
