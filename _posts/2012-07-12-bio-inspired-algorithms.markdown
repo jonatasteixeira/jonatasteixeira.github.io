@@ -57,14 +57,15 @@ Inside Nature inspired computing area we have somes algorithms categories:
     - Dendritic Cell Algorithms
 
 ## Artificial Immunological Systems
-<Not Finished>
+
+Not Finished
 
 ## Collective Intelligence
 Collective intelligence is shared or group intelligence that emerges from the collaboration, collective efforts, and competition of many individuals and appears in consensus decision making.
 
 ![CI](/assets/images/colletive_intelligence.gif){:class="img-responsive"}
 
-<Not Finished>
+Not Finished
 
 
 
