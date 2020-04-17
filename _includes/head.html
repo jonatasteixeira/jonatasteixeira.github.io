@@ -32,6 +32,17 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.summary }}">
 
+  <script src="{{ site.baseurl }}/assets/js/jquery-3.5.0.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+  <script>
+    $.ajaxSetup({
+      scriptCharset: "utf-8",
+      contentType: "application/json; charset=utf-8"
+    });
+    $.getJSON("{{ site.baseurl }}/assets/data/full.json", function(forunte) { 
+        getFortune(forunte);
+    });
+  </script>
   {% if page.bg %}
     <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
     <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">

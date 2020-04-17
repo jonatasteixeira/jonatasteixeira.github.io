@@ -104,3 +104,74 @@
     });
   }
 })();
+
+/*
+ * cowsay
+* ========================================================================== */
+function cowsay(msg) {
+  let text=msg.split('\n');
+  let numLinesPerText=text.length-1;
+  let numCharsPerLine=0;
+  let cow='        \\   ^__^\n         \\  (oo)\\_______\n            (__)\\       )\\/\\\n                ||----w |\n                ||     ||';
+  let result ="";
+
+  //Auxiliar function
+  function lineSize(string) {
+    let size = 0;
+    for(let i = 0; i < string.length; i++) {
+        if (string[i] === '\t') {
+            size += (8-((size+2) % 8))
+        } else {
+            size++;
+        }
+    }
+    return size;
+  }
+
+  text.forEach(function(line, idx, all){
+    if (line.length > 0) {
+      let lineLenght = lineSize(line);
+      if (lineLenght > numCharsPerLine) {
+        numCharsPerLine = lineLenght;
+      }
+    }
+  });
+
+  let header=` ${"-".repeat(numCharsPerLine+2)} \n`;
+  let footer=` ${"-".repeat(numCharsPerLine+2)} \n`;
+
+  result = header;
+  text.forEach(function(line, idx, all){
+    newLine = line.replace("\t", "      ");
+    let spaces = " ".repeat(numCharsPerLine - lineSize(line));
+    if (line.length > 1) {
+      if (numLinesPerText > 1) {
+        if (idx === 0) {
+          result += `/ ${line}${spaces} \\\n`;
+        } else if (idx === numLinesPerText - 1) {
+          result += `\\ ${line}${spaces} /\n`;
+        } else {
+          result += `| ${line}${spaces} |\n`;
+        }
+      } else {
+        result += `< ${line}${spaces} >\n`;
+      }
+    }
+  });
+  result += `${footer}`;
+  result += `${cow}`;
+  return result;
+}
+
+/*
+ * fortune | cowsay
+* ========================================================================== */
+function getFortune(fortunes) {
+  let idCategory =  Math.floor(Math.random() * fortunes.length);
+  let idFortune = Math.floor(Math.random() * fortunes[idCategory].list.length);
+  let fortune = fortunes[idCategory].list[idFortune];
+
+  document.getElementById('fortune-msg').innerHTML = cowsay(fortune.text);
+  document.getElementById('fortune-details').innerHTML = `${String('\t\t -- ')}${String(fortune.author)}`;
+  document.getElementById('fortune-category').innerHTML = `${String('\t\t * ')}${String(fortunes[idCategory].name.split('/').pop())}`;;
+}

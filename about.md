@@ -17,7 +17,8 @@ active: about
     "email": "jonatasteixeira at gmail dot com"
     "birth": "1990-01-19T19:00:00+00:00"
     "companies": [
-        { "name": "Itaú Unibanco", "status": "active" },
+        { "name": "UOL PagSeguro", "status": "active" },
+        { "name": "Itaú Unibanco", "status": "inactive" },
         { "name": "Mandriva Conectiva Linux", "status": "inactive" },
         { "name": "C3SL", "status": "inactive" }
     ]
@@ -26,7 +27,7 @@ active: about
         { 
             "name": "Federal University of Parana", 
             "status": "finished", 
-            "curse": "Bachelor Computer Science" 
+            "curse": "Bachelor in Computer Science" 
         },
         { 
             "name": "University of São Paulo", 
@@ -37,7 +38,13 @@ active: about
             "name": "University of São Paulo", 
             "status": "finished", 
             "curse": "Master in Computer Engineering" 
+        }, 
+        { 
+            "name": "Getulio Vargas Fundation, 
+            "status": "In progrress", 
+            "curse": "Master in Business information Technology" 
         }
+    ]
     ]
 }
 
