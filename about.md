@@ -40,7 +40,7 @@ active: about
             "curse": "Master in Computer Engineering" 
         }, 
         { 
-            "name": "Getulio Vargas Fundation, 
+            "name": "Getulio Vargas Fundation", 
             "status": "In progrress", 
             "curse": "Master in Business information Technology" 
         }
