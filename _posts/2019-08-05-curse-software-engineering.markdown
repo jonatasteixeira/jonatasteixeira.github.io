@@ -10,9 +10,9 @@ author: Jonatas Teixeira
 tags: 'daily'
 ---
 
-Hello everybody, recently I was invited to be a teacher of Software Engineering in a Bachelorr of Computer Science. 
+Hello everybody, recently I was invited to teaching of Software Engineering in a Bachelorr of Computer Science. 
 
-This experience was very rich, and to support the classes I create some pages with some bullets about the subject. 
+This experience was very rich, and to support the classes I created some pages with some bullets about the subject. 
 
 ## Lets talk about classes
 
