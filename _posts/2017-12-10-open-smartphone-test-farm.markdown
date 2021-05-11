@@ -58,3 +58,19 @@ This especification is for only one server. For our setup we need 13.
 | MicroUSB cable | [Monoprice.com 1.5ft USB 2.0 A Male to Micro 5pin Male 28/24AWG Cable w/ Ferrite Core (Gold Plated)](http://www.monoprice.com/Product?c_id=103&cp_id=10303&cs_id=1030307&p_id=5456&seq=1&format=2) | x28 |
 
 You may also need extension cords for power.
+
+### Pictures of porject finished
+    Was created a room to support:
+    * 350 Android devices
+    * 13 Custom rarcks with pipes, fans and glassdor
+    * 7 Directional Access Points (top of the rack)
+    * 52 Hubs USB (1 input -> 7 outputs)
+    * 350 USB Cables
+    * 13 Linux serves with 13 usb controllers (bottom of the rack)
+
+![Device Farm](/assets/images/device_farm1.jpeg){:class="img-responsive"}
+![Device Farm](/assets/images/device_farm2.jpeg){:class="img-responsive"}
+![Device Farm](/assets/images/device_farm3.jpeg){:class="img-responsive"}
+![Device Farm](/assets/images/device_farm4.jpeg){:class="img-responsive"}
+
+
