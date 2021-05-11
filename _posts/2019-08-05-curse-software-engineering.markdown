@@ -10,10 +10,12 @@ author: Jonatas Teixeira
 tags: 'daily'
 ---
 
-## Lets talk about classes
-
 Hello everybody, recently I was invited to be a teacher of Software Engineering in a Bachelorr of Computer Science. 
 
 This experience was very rich, and to support the classes I create some pages with some bullets about the subject. 
 
-[To see the documents click herer](http://www.jonatasteixeira.com.br/engsoft/ "Jonatas Teixeira EngSoft")
+## Lets talk about classes
+
+![EngSoft](/assets/images/engsoft.png){:class="img-responsive"}
+
+[To see the classes click here](http://www.jonatasteixeira.com.br/engsoft/ "Jonatas Teixeira EngSoft")
