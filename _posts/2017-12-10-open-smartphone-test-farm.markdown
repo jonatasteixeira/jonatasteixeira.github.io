@@ -59,7 +59,7 @@ This especification is for only one server. For our setup we need 13.
 
 You may also need extension cords for power.
 
-### Pictures of porject finished
+### Pictures of Device Farm
     Was created a room to support:
     * 350 Android devices
     * 13 Custom rarcks with pipes, fans and glassdor
@@ -72,5 +72,4 @@ You may also need extension cords for power.
 ![Device Farm](/assets/images/device_farm2.jpeg){:class="img-responsive"}
 ![Device Farm](/assets/images/device_farm3.jpeg){:class="img-responsive"}
 ![Device Farm](/assets/images/device_farm4.jpeg){:class="img-responsive"}
-
 
